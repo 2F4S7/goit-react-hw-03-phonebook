@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-02-phonebook",
+  "name": "goit-react-hw-03-phonebook",
   "version": "3.0.1",
   "private": true,
-  "homepage": "https://2F4S7.github.io/goit-react-hw-02-phonebook",
+  "homepage": "https://2F4S7.github.io/goit-react-hw-03-phonebook",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
