@@ -1,0 +1,60 @@
+.number {
+    margin: 5px 20px 5px 5px;
+    font-size: 16px;
+}
+.name {
+    margin: 5px 20px 5px 5px;
+    font-size: 16px;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 350px;
+    height: 35px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.item:hover {
+    cursor: pointer;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.button {
+    width: auto;
+    font-size: 17px;
+    border: 1px solid black;
+    line-height: calc(18 / 18);
+    letter-spacing: 0.03em;
+    background-color: #f5f4fa;
+    border-radius: 12px;
+}
+
+.button:focus {
+    background-color: #2196f3;
+}
+
+.button:hover {
+    background-color: #2196f3;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+}

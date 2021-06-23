@@ -1,0 +1,35 @@
+.form {
+    margin: 5px;
+}
+
+
+.label {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.input {
+    display: block;
+    height: 25px;
+}
+
+.button {
+    display: block;
+    align-items: center;
+    margin: 2px;
+    border: 1px solid black;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.03em;
+    background-color: #f5f4fa;
+    border-radius: 12px;
+
+}
+
+.button:focus {
+    background-color: #2196f3;
+}
+
+.button:hover {
+    background-color: #2196f3;
+}
