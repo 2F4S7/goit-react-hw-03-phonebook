@@ -1,7 +1,7 @@
-import Button from "react-bootstrap/Button";
-import "bootstrap/dist/css/bootstrap.min.css";
-import React from "react";
-import style from "./btn.module.css";
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import style from './btn.module.css';
 
 const Btn = ({ title, button }) => {
   return (
@@ -9,13 +9,13 @@ const Btn = ({ title, button }) => {
       <h1 className={style.title}>{title}</h1>
       <Button
         className={style.button}
-        href="https://github.com/2F4S7/goit-react-hw-02-phonebook"
+        href="https://github.com/2F4S7/goit-react-hw-03-phonebook"
         target="_blank"
         variant="dark"
         key={button}
       >
         Github Repository
-      </Button>{" "}
+      </Button>{' '}
     </header>
   );
 };
